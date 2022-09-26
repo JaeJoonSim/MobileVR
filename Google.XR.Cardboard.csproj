@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5D8731B0-4400-1334-79D8-2550C73FF3EE}</ProjectGuid>
+    <ProjectGuid>{CEAC31BC-0363-0528-FBBA-16D7369CA712}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Google.XR.Cardboard</AssemblyName>

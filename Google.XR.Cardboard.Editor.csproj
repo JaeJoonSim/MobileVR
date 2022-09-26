@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B1240E93-1558-3F8B-9CFD-4214E1138564}</ProjectGuid>
+    <ProjectGuid>{F427C80B-CDF1-B3FB-53E2-BC14921085D3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Google.XR.Cardboard.Editor</AssemblyName>
@@ -687,7 +687,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Google.XR.Cardboard.csproj">
-      <Project>{5D8731B0-4400-1334-79D8-2550C73FF3EE}</Project>
+      <Project>{CEAC31BC-0363-0528-FBBA-16D7369CA712}</Project>
       <Name>Google.XR.Cardboard</Name>
     </ProjectReference>
   </ItemGroup>

@@ -78,7 +78,15 @@ extern void ForceMove_OnTriggerEnter_mED9F912653B65716CAC32474A9F339DCCFA1BC03 (
 extern void ForceMove_LookAtMovePlayer_m78AF1F0CCA0AD427BEBA4FF21ABF2E0599D714F4 (void);
 // 0x00000021 System.Void ForceMove::.ctor()
 extern void ForceMove__ctor_mF442023A09C42C0C812686FA279771321DE2C1AE (void);
-static Il2CppMethodPointer s_methodPointers[33] = 
+// 0x00000022 System.Void VRObjController::OnPointerEnter()
+extern void VRObjController_OnPointerEnter_m95791B0CFBE636C14D4E113F961EF53AA8531210 (void);
+// 0x00000023 System.Void VRObjController::OnPointerExit()
+extern void VRObjController_OnPointerExit_m8C477C71C804A59292A7DFE69510B11EA2BB7D0C (void);
+// 0x00000024 System.Void VRObjController::OnPointerClick()
+extern void VRObjController_OnPointerClick_mE8C58D0BE92EF26548D0F5B7C228EAC8AF303E90 (void);
+// 0x00000025 System.Void VRObjController::.ctor()
+extern void VRObjController__ctor_m6D5F703E86769AB4A6F5BF5A3143B0A1021432B9 (void);
+static Il2CppMethodPointer s_methodPointers[37] = 
 {
 	CameraPointer_Update_m03EFDAC6980037B33C39C2070279E57FDFA0E982,
 	CameraPointer__ctor_mB1A747A1AEACE6E16A9D805F4F6EB409804E451E,
@@ -113,49 +121,57 @@ static Il2CppMethodPointer s_methodPointers[33] =
 	ForceMove_OnTriggerEnter_mED9F912653B65716CAC32474A9F339DCCFA1BC03,
 	ForceMove_LookAtMovePlayer_m78AF1F0CCA0AD427BEBA4FF21ABF2E0599D714F4,
 	ForceMove__ctor_mF442023A09C42C0C812686FA279771321DE2C1AE,
+	VRObjController_OnPointerEnter_m95791B0CFBE636C14D4E113F961EF53AA8531210,
+	VRObjController_OnPointerExit_m8C477C71C804A59292A7DFE69510B11EA2BB7D0C,
+	VRObjController_OnPointerClick_mE8C58D0BE92EF26548D0F5B7C228EAC8AF303E90,
+	VRObjController__ctor_m6D5F703E86769AB4A6F5BF5A3143B0A1021432B9,
 };
-static const int32_t s_InvokerIndices[33] = 
+static const int32_t s_InvokerIndices[37] = 
 {
-	959,
-	959,
-	959,
-	959,
-	959,
-	959,
-	959,
-	959,
-	959,
-	959,
-	797,
-	959,
-	909,
-	909,
-	959,
-	959,
-	959,
-	959,
-	933,
-	959,
-	959,
-	815,
-	959,
-	909,
-	933,
-	959,
-	933,
-	959,
-	959,
-	959,
-	823,
-	959,
-	959,
+	962,
+	962,
+	962,
+	962,
+	962,
+	962,
+	962,
+	962,
+	962,
+	962,
+	799,
+	962,
+	912,
+	912,
+	962,
+	962,
+	962,
+	962,
+	936,
+	962,
+	962,
+	818,
+	962,
+	912,
+	936,
+	962,
+	936,
+	962,
+	962,
+	962,
+	826,
+	962,
+	962,
+	962,
+	962,
+	962,
+	962,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	33,
+	37,
 	s_methodPointers,
 	0,
 	NULL,

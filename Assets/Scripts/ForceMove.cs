@@ -28,11 +28,11 @@ public class ForceMove : MonoBehaviour
 
     private void Update()
     {
-        if (viewMode == 0) MovePlayer();
-        else if (viewMode == 1) LookAtMovePlayer();
+        //if (viewMode == 0) MovePlayer();
+        //else if (viewMode == 1) LookAtMovePlayer();
 
         
-        if (moveCount >= 1) viewMode = 1;
+        //if (moveCount >= 1) viewMode = 1;
     }
 
     void MovePlayer()
